@@ -13,12 +13,13 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_first);
 		Button b = (Button) findViewById(R.id.button1);
-		final Intent intent = new Intent(this, SecondActivity.class);
+		
 		b.setOnClickListener(new View.OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainActivity.this, SecondActivity.class);
 				startActivity(intent);
 
 			}

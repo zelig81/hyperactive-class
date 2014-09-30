@@ -20,12 +20,12 @@ public class ThirdActivity extends Activity {
 		TextView tv = (TextView) findViewById(R.id.TextView2);
 		int index = r.nextInt(3);
 		tv.setText(arr[index]);
-		final Intent intent = new Intent(this, MainActivity.class);
 		Button b = (Button) findViewById(R.id.button3);
 		b.setOnClickListener(new View.OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
+				final Intent intent = new Intent(ThirdActivity.this, MainActivity.class);
 				startActivity(intent);
 			}
 		});
