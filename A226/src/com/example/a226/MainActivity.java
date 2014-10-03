@@ -10,13 +10,14 @@ import android.widget.EditText;
 public class MainActivity extends Activity {
 	EditText et;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Button b = (Button)findViewById(R.id.EditText1);
-        b.setOnClickListener(new View.OnClickListener() {
-			
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		Button b = (Button) findViewById(R.id.button1);
+		et = (EditText) findViewById(R.id.EditText1);
+		b.setOnClickListener(new View.OnClickListener() {
+
 			@Override
 			public void onClick(View v) {
 				String s = et.getText().toString();
@@ -25,5 +26,5 @@ public class MainActivity extends Activity {
 				startActivity(intent);
 			}
 		});
-    }
+	}
 }
