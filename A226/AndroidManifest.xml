@@ -5,7 +5,7 @@
 	android:versionName="1.0" >
 	<uses-sdk
 		android:minSdkVersion="14"
-		android:targetSdkVersion="14" />
+		android:targetSdkVersion="19" />
 	<application
 		android:allowBackup="true"
 		android:icon="@drawable/ic_launcher"
@@ -30,6 +30,14 @@
 		<activity
 			android:name=".HebrewActivity"
 			android:label="Hebrew Translation" >
+			<intent-filter>
+				<action android:name="com.example.translate" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".ItalicActivity"
+			android:label="Italic Translation" >
 			<intent-filter>
 				<action android:name="com.example.translate" />
 				<category android:name="android.intent.category.DEFAULT" />
