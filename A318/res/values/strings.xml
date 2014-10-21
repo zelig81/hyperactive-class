@@ -11,6 +11,6 @@
     <string name="famale">Female</string>
     <string name="submit">Submit</string>
     <string name="hintNumber">type here age of client</string>
-    <string name="return">Return to menu</string>
+    <string name="sReturn">Return to menu</string>
 
 </resources>
