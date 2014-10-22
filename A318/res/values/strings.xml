@@ -12,5 +12,6 @@
     <string name="submit">Submit</string>
     <string name="hintNumber">type here age of client</string>
     <string name="sReturn">Return to menu</string>
+    <string name="sIsMale">Is it male of female (check if male)</string>
 
 </resources>

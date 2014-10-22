@@ -14,25 +14,6 @@
         <requestFocus />
     </EditText>
 
-    <RadioGroup
-        android:id="@+id/maleOrFemale"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-
-        <RadioButton
-            android:id="@+id/male"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="@string/male" />
-
-        <RadioButton
-            android:id="@+id/female"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/famale" />
-    </RadioGroup>
-
     <EditText
         android:id="@+id/editText2"
         android:layout_width="match_parent"
@@ -41,8 +22,14 @@
         android:hint="@string/hintNumber"
         android:inputType="numberDecimal" />
 
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sIsMale" />
+
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/buttonA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/submit" />
