@@ -24,3 +24,5 @@ proguard/
 
 # Log Files
 *.log
+/AC61/nbandroid/
+/AC62/nbandroid/
