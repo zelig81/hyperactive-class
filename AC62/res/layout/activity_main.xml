@@ -1,12 +1,43 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <AutoCompleteTextView
+        android:id="@+id/actv"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:hint="@string/put_your_name" 
+        android:completionThreshold="1"
+        
+        
+        />
+    <Spinner 
+        android:id="@+id/spin1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:entries="@array/s_spinner"
+        />
+    <ToggleButton 
+        android:id="@+id/togBut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textOn="@string/togButTextOn"
+        android:textOff="@string/togButTextOff"
+        />
+    <Button 
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonText"
+        />
+    <TextView 
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
 
-</RelativeLayout>
+</LinearLayout>

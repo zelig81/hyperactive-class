@@ -2,6 +2,22 @@
 <resources>
 
     <string name="app_name">AC62</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="put_your_name">Put your name here (just not &quot;Bin Laden&quot;)</string>
+    <string-array name="s_actv">
+        <item>Adi</item>
+        <item>Abab</item>
+        <item>Bedi</item>
+        <item>Cidi</item>
+        <item>Vici</item>
+    </string-array>
+    <string-array name="s_spinner">
+        <item>Tel aviv</item>
+        <item>Petah Tikva</item>
+        <item>Beer Sheva</item>
+        <item>Washington</item>
+    </string-array>
+    <string name="togButTextOn">Interested in been updated about things</string>
+    <string name="togButTextOff">No so interested in been updated about thing</string>
+    <string name="buttonText">Print current info</string>
 
 </resources>
