@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AC91</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tbShot">Make photo</string>
+    <string name="tbShow">Show photos</string>
+    <string name="tbSave">Save</string>
+    <string name="etComment">comment on photo below</string>
+    <string name="title_activity_show">List of made photos</string>
+    <string name="toastNoShot">Before save please shot some photo</string>
+
+</resources>
