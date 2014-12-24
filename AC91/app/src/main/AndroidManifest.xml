@@ -3,8 +3,10 @@
     package="ilyag.ac91" >
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-feature android:name="android.hardware.Camera"/>
+    <uses-feature android:name="android.location.Geocoder"/>
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="16"/>
